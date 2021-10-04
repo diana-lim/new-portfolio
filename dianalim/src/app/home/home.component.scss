@@ -50,5 +50,25 @@ button {
 
 .content-right {
   grid-area: right;
+  display: grid;
+  grid-template-rows: 20% 60% 20%;
+  grid-template-columns: 100%;
+  grid-template-areas: "top"
+  "middle"
+  "bottom";
+}
+
+.showcase-container {
+  grid-area: middle;
+  width: 75%;
+  height: 90%;
+  background-color: white;
+  border-radius: 15px;
+  border: 10px solid gray;
+}
+
+h2 {
+  padding-top: 25%;
+  text-align: center;
 }
 
