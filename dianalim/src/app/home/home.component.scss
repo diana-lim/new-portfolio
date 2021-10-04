@@ -1,4 +1,54 @@
 .content-container {
-  background-color: #3a3a3a;
+  background-color: black;
   height: 90vh;
+  display: grid;
+  grid-template-columns: 45% 55%;
+  grid-template-rows: 100%;
+  grid-template-areas: "left right";
 }
+
+.content-left {
+  grid-area: left;
+  padding-top: 15%;
+  padding-left: 15%;
+  color: white;
+}
+
+img {
+  width: 20%;
+  margin-bottom: 30px;
+  border-radius: 90px;
+}
+
+.left-item {
+  color: white;
+  width: 55%;
+}
+
+.left-name {
+  font-size: 4.5rem;
+  margin-bottom: 10px;
+}
+
+.left-description {
+  color: #9a87c7;
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 45px;
+  border-radius: 25px;
+  background-color:#9a87c7;
+  color: black;
+  font-weight: bold;
+  border: 0;
+  width: 25%;
+  height: 40px;
+}
+
+.content-right {
+  grid-area: right;
+}
+

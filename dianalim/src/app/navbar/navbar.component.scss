@@ -10,9 +10,9 @@ header {
 .logo {
   color: white;
   grid-area: logo;
-  padding-left: 10%;
+  padding-left: 20%;
   padding-top: 5%;
-  font-size: xx-large;
+  font-size: 3.5rem;
 }
 
 .navigation-list {
@@ -41,7 +41,9 @@ header {
 
 .portfolio-button {
   border-radius: 25px;
-  background-color: teal;
+  background-color:#9a87c7;
+  color: black;
+  font-weight: bold;
   border: 0;
   margin-left: 10%;
   width: 100%;
