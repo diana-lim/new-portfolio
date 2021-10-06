@@ -1,0 +1,38 @@
+.projects-container {
+  width: 100vw;
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 14% 24% 24% 24% 14%;
+  grid-template-rows: 100%;
+  grid-template-areas: "one two three four five";
+}
+
+.software-development {
+  grid-area: two;
+  margin-top: 20%;
+  text-align: center;
+  width: 80%;
+  height: 60%;
+  border: 1px solid black;
+
+}
+
+.youtube {
+  grid-area: three;
+  margin-top: 20%;
+  text-align: center;
+  width: 80%;
+  height: 60%;
+  border: 1px solid black;
+
+}
+
+.random {
+  grid-area: four;
+  margin-top: 20%;
+  text-align: center;
+  width: 80%;
+  height: 60%;
+  border: 1px solid black;
+
+}
