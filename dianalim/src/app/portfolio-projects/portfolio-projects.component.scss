@@ -1,0 +1,40 @@
+.portfolio-container {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 100%;
+  grid-template-areas: "one two three";
+}
+
+h2 {
+  grid-area: two;
+  margin-top: 5%;
+}
+
+.projects-container {
+  grid-area: two;
+  margin-top: 13%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50% 50%;
+  grid-template-areas: "one two three four"
+                      "five six seven eight";
+  height: 70vh;
+  width: 100%;
+
+}
+
+.item {
+  text-align: center;
+}
+
+.project {
+  margin-left: 5%;
+  width: 90%;
+  height: 60%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.description {
+  margin-top: 12%;
+}
