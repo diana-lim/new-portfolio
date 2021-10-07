@@ -72,4 +72,8 @@ h2 {
   text-align: center;
 }
 
-
+@media only screen and (max-width: 1400px) {
+  .content-container {
+    background-color: lightblue;
+  }
+}
